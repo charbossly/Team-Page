@@ -1,0 +1,153 @@
+*{
+    margin:0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    padding: 10rem;
+    padding-top: 4rem;
+    padding-bottom: 0rem;
+}
+div.head{
+    display: flex;
+    width:fit-content;
+    height: auto;
+}
+div.head div{
+    width: 50%;
+    padding: 1rem;
+    padding-right: 8rem;
+}
+.title{
+    font-size: 1.2rem;
+    font-weight: 800;
+    padding-top: 2rem;
+}
+.about *{
+    margin-bottom: 1rem;
+    
+}
+.about h6{
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    
+}
+.about p{
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 27px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+.content{
+    margin-top: 2rem;
+    display: flex;
+    justify-content: space-between;
+    height: auto;
+    flex-wrap: wrap;
+}
+
+.card{
+    display: flex;
+    width: 30%;
+    height: 85%;
+    overflow: hidden;
+    margin-bottom: 3rem;
+    
+
+}
+ div.content >  div:nth-child(2){
+ margin-top: 15%;
+}
+div.content >  div:nth-child(5){
+    margin-top: 15%;
+   }
+
+.imgtitle{
+    width: 90%;
+    font-weight: 600;
+    font-family: 'Poppins';
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+
+}
+.imgtitle img{
+    height: 85%;
+    width: 100%;
+}
+.oriented-title{
+    width: 10%;
+}
+ .oriented-title p{
+    margin-top: 30%;
+    white-space: nowrap;
+    transform: rotate(90deg);
+    margin-left: 15%;
+} 
+footer{
+    margin-top:3rem ;
+    font-size: 14px;
+    margin-bottom: 1rem;
+    text-align: center;
+    font-weight: 500;
+    font-family: 'Montserrat', sans-serif;
+}
+footer a{
+    text-decoration: none;
+    font-weight: 700;
+}
+
+.short-title{
+    font-weight: bold;
+}
+@media (min-width:600px) and (max-width:1050px) { 
+    
+}
+@media screen and (max-width:1050px) {
+    body{
+        padding: 2rem;
+        padding-top: 4rem;
+        padding-bottom: 0rem;
+    }
+    div.head{
+        flex-direction: column;
+     
+    }
+    div.head div{
+        width: 100%;
+        padding-right: 0rem;
+
+    }
+    .card{
+        display: flex;
+        width: 40%;
+        height: 85%;
+        overflow: hidden;
+        
+    
+    }
+    div.content >  div:nth-child(2){
+        margin-top: 15%;
+       }
+       div.content >  div:nth-child(4){
+           margin-top: 15%;
+          }
+          div.content >  div:nth-child(6){
+            margin-top: 15%;
+           }
+           div.content >  div:nth-child(5){
+               margin-top: 0%;
+              }
+    
+}
+@media (min-width:600px) and (max-width:1050px) { 
+    div.head div{
+        width: 100%;
+        padding-right: 8rem;
+
+    }
+}
